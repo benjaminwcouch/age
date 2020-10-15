@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Testing</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2> Challenge 1: Your age in days</h2>
+        <div class="flex-box-container-1">
+            <div>
+            <button type="button" onclick=ageInDays() class="btn btn-primary">Click me</button>
+            </div>
+
+            <div>
+            <button type="button" onclick=reset() class="btn btn-danger pull-right">Reset</button>
+            </div>
+
+        </div>
+              
+        <div class="flex-box-container-1">
+               <div id="flex-box-result"></div>  
+        </div>
+        
+    </div>
+</div>
+
+<div class="container-2">
+    <h2> Challenge 2: Cat Generator</h2>
+        <button onclick=generateCat() id="cat-generator" class="btn btn-success">Generate Cat</button>
+                <div class="flex-box-container-2" id="flex-cat-gen">           
+        </div>
+</div>
+
+<div class="container-3">
+    <h2>Challenge 3: Rock, Paper, Scissors</h2>
+    <div class="flex-box-rps" id="flex-box-rps-div">
+        <img id="rock" src="https://i.pinimg.com/originals/ce/71/ca/ce71ca96e2bfd072d5714dd3f76bc951.jpg" height="150" width="150" alt onclick="rpsGame(this)">
+        <img id="paper" src="http://www.clker.com/cliparts/b/e/e/e/11949839881243335407note.svg.med.png"  height="150" width="150" alt onclick="rpsGame(this)"> 
+        <img id="scissors" src="https://image.shutterstock.com/image-vector/metal-scissors-blue-handlessewing-tailoring-260nw-619566383.jpg"  height="150" width="150" alt onclick="rpsGame(this)"> 
+    </div>
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
